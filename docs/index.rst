@@ -7,7 +7,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 3
-   :caption: About Read the Docs
+   :caption: 点评购物开放平台API文档
    
    open_sdk
    open_api
