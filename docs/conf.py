@@ -43,8 +43,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Read the Docs Template'
-copyright = u'2014, Read the Docs'
+project = u'点评购物开放平台OpenAPI'
+copyright = u'版权所有 2017, 大众点评购物开放平台'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
