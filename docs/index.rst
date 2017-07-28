@@ -6,7 +6,7 @@
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: About Read the Docs
    
    open_sdk
