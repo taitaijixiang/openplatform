@@ -1,3 +1,5 @@
+.. API
+
 APIRead the Docs Public API
 =========================
 
