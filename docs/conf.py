@@ -37,14 +37,15 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The encoding of source files.
-#source_encoding = 'utf-8-sig'
+source_encoding = 'utf-8-sig'
 
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
-project = u'Read the Docs Template'
-copyright = u'2014, Read the Docs'
+#project = u'Read the Docs Template'
+project = u'点评购物开放平台OpenAPI'
+copyright = u'2017, 点评购物开放平台'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
