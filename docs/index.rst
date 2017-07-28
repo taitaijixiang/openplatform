@@ -6,7 +6,7 @@
 Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :caption: 点评购物开放平台API文档
    
    open_sdk
