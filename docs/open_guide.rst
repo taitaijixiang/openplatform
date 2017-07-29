@@ -39,7 +39,7 @@
 申请client_id
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-申请client_id请按照如下格式要求发送邮件bailei02@meituan.com获取：
+申请client_id请按照如下要求发送邮件bailei02@meituan.com获取：
 
 ==========    ==========
 项            说明
