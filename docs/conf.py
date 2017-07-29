@@ -1,4 +1,4 @@
- -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 #
 # Read the Docs Template documentation build configuration file, created by
 # sphinx-quickstart on Tue Aug 26 14:19:49 2014.
