@@ -3,17 +3,13 @@
 API
 =========================
 
-We have a limited public API that is available for you to get data out of the site. 
-This document covers only part of the API provided. We have plans to create a read/write API, so that you can easily automate interactions with your project.
+点评购物开放平台（DIANPING Open Platform）的API是基于HTTP协议来调用的，开发者（ISV）可以直接使用点评提供的官方SDK（支持多种语言，包含了封装的请求，签名加密，响应解释，性能优化等）来调用，也可以根据开放平台的协议来封装HTTP请求进行调用，以下主要针对自行封装HTTP请求进行API调用的原理进行详细解说。
 
-.. warning:: This API is out of date and not currently maintained.
-             We have a v2 API that is currently supported at http://readthedocs.org/api/v2/.
-
-接入指南
+调用流程
 --------------------------------
 
-We have a limited public API that is available for you to get data out of the site. 
-This document covers only part of the API provided. We have plans to create a read/write API, so that you can easily automate interactions with your project.
+根据点评购物开放平台的协议：填充参数 > 生成签名 > 拼装HTTP请求 > 发起HTTP请求 > 得到HTTP响应 > 解释JSON/XML结果，以下是大体的调用过程示意图：
+
 
 API文档
 --------------------------------
