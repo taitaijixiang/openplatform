@@ -57,8 +57,9 @@ API
 2. 业务参数
   业务参数
 
-:role:`API请求示例 api_desc`
-API文档
+.. _apd_desc
+
+API明细
 --------------------------------
 
 .. _coupon
