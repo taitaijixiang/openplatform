@@ -4,13 +4,25 @@
 SDK
 =========================
 
-We have a limited public API that is available for you to get data out of the site. 
-This document covers only part of the API provided. We have plans to create a read/write API, so that you can easily automate interactions with your project.
-
-.. warning:: This API is out of date and not currently maintained.
-             We have a v2 API that is currently supported at http://readthedocs.org/api/v2/.
-
-使用说明
+概述
 --------------------------------
 
-关于SDK的使用说明
+点评购物开放平台SDK提供了API的请求封装、摘要签名、响应解释、消息监听等功能，使用SDK可以轻松完成API的调用，API结果的获取，消息的实时监听。
+
+环境依赖
+--------------------------------
+
+ - JAVA SDK 需要依赖 Java SE/EE 1.6及以上 （不支持Android平台）
+ - PHP SDK 需要依赖 PHP 5及以上
+
+
+环境依赖
+--------------------------------
+
+ | 下载地址参照：https://openshopping.dianping.com/
+ 
+
+如何使用
+--------------------------------
+
+进入任意一个API的详情页面，查看 :ref:`open_api`
