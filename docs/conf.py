@@ -68,7 +68,8 @@ language = 'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+#exclude_patterns = ['_build']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -177,7 +178,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ReadtheDocsTemplatedoc'
+htmlhelp_basename = 'DIANPING Open API'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -197,8 +198,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'ReadtheDocsTemplate.tex', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'manual'),
+  ('index', 'DIANPINGOpenAPI.tex', u'DIANPING Open API Documentation',
+   u'DIANPING', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -227,8 +228,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'readthedocstemplate', u'Read the Docs Template Documentation',
-     [u'Read the Docs'], 1)
+    ('index', 'DIANPINGOpenAPI', u'DIANPING Open API Documentation',
+     [u'DIANPING'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -241,8 +242,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ReadtheDocsTemplate', u'Read the Docs Template Documentation',
-   u'Read the Docs', 'ReadtheDocsTemplate', 'One line description of project.',
+  ('index', 'DIANPINGOpenAPI', u'DIANPING Open API Documentation',
+   u'DIANPING', 'DIANPINGOpenAPI', 'One line description of project.',
    'Miscellaneous'),
 ]
 
