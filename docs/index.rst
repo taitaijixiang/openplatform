@@ -17,7 +17,6 @@
    :maxdepth: 5
    :caption: 点评购物开放平台OpenAPI文档
    
-   open_tmp
    open_guide
    open_sdk
    open_api
