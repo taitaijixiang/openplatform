@@ -12,6 +12,8 @@ API
 
 .. image:: images/api.jpg
 
+.. _request_url
+
 调用入口
 --------------------------------
 
@@ -63,8 +65,10 @@ API明细
 --------------------------------
 
 .. _coupon
+
 .. include:: api/coupon/coupon.rst
 
 .. _order
+
 .. include:: api/order/order.rst
 
