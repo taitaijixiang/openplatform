@@ -57,7 +57,7 @@ API
 
  + 对所有API请求参数（包括公共参数和业务参数，但除去sigin参数和byte[]类型的参数），根据参数名称的ASCII码表的顺序排序。如：foo=1，bar=2，foo_bar=3，foobar=4排序后的顺序是bar=2,foo=1,foo_bar=3,foobar=4。
  + 将排序好的参数和参数值拼装在一起，根据上面的示例得到的结果为：bar2foo1foo_bar3foobar4。
- + 把拼装好的字符串采用utf-8编码，使用签名算法对编码后的字节流进行摘要。在拼装的字符串前面加上client_secret后，再进行摘要，如md5(secret+bar2foo1foo_bar3foobar4).
+ + 把拼装好的字符串采用utf-8编码，使用签名算法对编码后的字节流进行摘要。在拼装的字符串后面加上client_secret后，再进行摘要，如md5(bar2foo1foo_bar3foobar4+secret).
  
 
 .. _api_desc:
