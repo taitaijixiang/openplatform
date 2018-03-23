@@ -45,7 +45,7 @@ master_doc = 'index'
 # General information about the project.
 #project = u'Read the Docs Template'
 project = u'点评购物开放平台OpenAPI'
-copyright = u'2003-2017 dianping.com, All Rights Reserved'
+copyright = u'2003-2018 dianping.com, All Rights Reserved'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
